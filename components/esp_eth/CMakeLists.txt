@@ -32,6 +32,7 @@ if(CONFIG_ETH_ENABLED)
                          "src/mac/esp_eth_mac_esp_gpio.c"
                          "src/phy/esp_eth_phy_dp83848.c"
                          "src/phy/esp_eth_phy_ip101.c"
+                         "src/esp_eth_phy_generic.c"
                          "src/phy/esp_eth_phy_ksz80xx.c"
                          "src/phy/esp_eth_phy_lan87xx.c"
                          "src/phy/esp_eth_phy_rtl8201.c")

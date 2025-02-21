@@ -390,6 +390,7 @@ esp_eth_phy_t *esp_eth_phy_new_w5500(const eth_phy_config_t *config);
 */
 esp_eth_phy_t *esp_eth_phy_new_ksz8851snl(const eth_phy_config_t *config);
 #endif
+esp_eth_phy_t *esp_eth_phy_new_generic(const eth_phy_config_t *config);
 #ifdef __cplusplus
 }
 #endif
